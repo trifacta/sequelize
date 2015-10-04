@@ -1,3 +1,6 @@
+# 3.xx.x
+- [FIXED/INTERNALS] Only recurse on plain objects in `mapOptionFieldNames`. [#4596](https://github.com/sequelize/sequelize/issues/4596) 
+
 # 2.0.3
 - [BUG] Support for plain strings, ints and bools on JSON insert
 - [BUG] Fixed regression where `{$in: []}` would result in `IN ()` rather than `IN (NULL)` [#3105](https://github.com/sequelize/sequelize/issues/3105) [#3132](https://github.com/sequelize/sequelize/issues/3132)
